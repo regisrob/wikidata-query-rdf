@@ -69,8 +69,8 @@ public class DefaultUrisScheme implements UrisScheme {
 
     public DefaultUrisScheme(URI conceptUrl, String entityPrefix, String entityDataPrefix, List<String> wikibaseInitials) {
         root = conceptUrl.toString().replaceAll("/+$", "");
-        entityData = root + "/wiki/Special:EntityData/";
-        entityDataHttps = otherScheme(conceptUrl) + "/wiki/Special:EntityData/";
+        entityData = root + "/w/Spécial:EntityData/";
+        entityDataHttps = otherScheme(conceptUrl) + "/w/Spécial:EntityData/";
         entity = root + "/entity/";
         statement = entity + "statement/";
         value = root + "/value/";

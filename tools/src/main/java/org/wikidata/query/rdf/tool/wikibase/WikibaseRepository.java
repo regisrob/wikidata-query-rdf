@@ -556,7 +556,7 @@ public class WikibaseRepository implements Closeable {
         /**
          * URL which should be used to retrieve Entity data.
          */
-        private static final String ENTITY_DATA_URL = "/wiki/Special:EntityData/";
+        private static final String ENTITY_DATA_URL = "/w/Spécial:EntityData/";
         /**
          * URL of the API endpoint.
          */
